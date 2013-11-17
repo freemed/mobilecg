@@ -1,0 +1,3517 @@
+# EESchema Netlist Version 1.1 created  Tue Feb 19 02:06:28 2013
+(
+ ( /50B03D38 MYPAD  P23 CONN_1 {Lib=CONN_1}
+  (    1 /Analog_interface/SHIELD )
+ )
+ ( /50B03D37 MYPAD  P22 CONN_1 {Lib=CONN_1}
+  (    1 /Analog_interface/SHIELD )
+ )
+ ( /50B03D36 MYPAD  P21 CONN_1 {Lib=CONN_1}
+  (    1 /Analog_interface/SHIELD )
+ )
+ ( /50B03D35 MYPAD  P20 CONN_1 {Lib=CONN_1}
+  (    1 /Analog_interface/SHIELD )
+ )
+ ( /50B03D34 MYPAD  P19 CONN_1 {Lib=CONN_1}
+  (    1 /Analog_interface/SHIELD )
+ )
+ ( /50B03D33 MYPAD  P18 CONN_1 {Lib=CONN_1}
+  (    1 /Analog_interface/SHIELD )
+ )
+ ( /50B03D32 MYPAD  P17 CONN_1 {Lib=CONN_1}
+  (    1 /Analog_interface/SHIELD )
+ )
+ ( /50B03D30 MYPAD  P16 CONN_1 {Lib=CONN_1}
+  (    1 /Analog_interface/SHIELD )
+ )
+ ( /50B03D2E MYPAD  P15 CONN_1 {Lib=CONN_1}
+  (    1 /Analog_interface/SHIELD )
+ )
+ ( /50AC3D10 SM0402  R110 ? {Lib=R}
+  (    1 N-000055 )
+  (    2 AGND )
+ )
+ ( /50AC3D0F SM0402  R109 ? {Lib=R}
+  (    1 +2.5V )
+  (    2 N-000055 )
+ )
+ ( /50AC3CFE SM0402  R107 ? {Lib=R}
+  (    1 +1.8V )
+  (    2 N-000032 )
+ )
+ ( /50AC3CFD SM0402  R108 ? {Lib=R}
+  (    1 N-000032 )
+  (    2 AGND )
+ )
+ ( /50AC3CC7 SM0402  R106 ? {Lib=R}
+  (    1 N-000054 )
+  (    2 AGND )
+ )
+ ( /50AC3C81 SM0402  R87 ? {Lib=R}
+  (    1 +5VA )
+  (    2 N-000054 )
+ )
+ ( /50A954C1 SM0603  D5 CD0603-B0130L {Lib=DIODESCH}
+  (    1 GND )
+  (    2 N-000056 )
+ )
+ ( /50A954BC SM0603  D4 CD0603-B0130L {Lib=DIODESCH}
+  (    1 N-000056 )
+  (    2 +5VP )
+ )
+ ( /509FEDBB SM0402  C93 100n {Lib=C}
+  (    1 +5VP )
+  (    2 GND )
+ )
+ ( /5095545B SM0402  R26 200 {Lib=R}
+  (    1 AGND )
+  (    2 N-000003 )
+ )
+ ( /50955302 SM0603  D3 BZT52C5V6T-7 {Lib=ZENER}
+  (    1 N-000003 )
+  (    2 N-000033 )
+ )
+ ( /5092F08B SM0402  C6 1u {Lib=C}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /5092EDF6 MYBSH201  Q1 P {Lib=MOSFET_P}
+  (    D N-000002 )
+  (    G /USB_interface/~ISO_PWR )
+  (    S +3.3V )
+ )
+ ( /5092D95D MYTR  T1 MYTR {Lib=MYTR}
+  (    1 N-000056 )
+  (    2 N-000040 )
+  (    3 AGND )
+  (    4 N-000043 )
+ )
+ ( /5092CB1F QFN16  U1 TPS55010 {Lib=TPS55010}
+  (    1 +5VP )
+  (    2 +5VP )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 N-000045 )
+  (    7 N-000046 )
+  (    8 N-000047 )
+  (    9 N-000048 )
+  (   10 N-000056 )
+  (   11 N-000056 )
+  (   12 N-000056 )
+  (   13 N-000044 )
+  (   14 /USB_interface/PWR_FAULT )
+  (   15 /USB_interface/POWER_ON )
+  (   16 +5VP )
+  (   17 GND )
+ )
+ ( /5092B284 SM0603  C7 4.7uF {Lib=C}
+  (    1 N-000040 )
+  (    2 GND )
+ )
+ ( /50928F58 MYPAD  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000004 )
+ )
+ ( /50928F27 SM1206  C4 4.7n_1kV {Lib=C}
+  (    1 GND )
+  (    2 N-000004 )
+ )
+ ( /50928ED9 SM0402  R2 1M {Lib=R}
+  (    1 GND )
+  (    2 N-000004 )
+ )
+ ( /508EEFAF MYUSB  P1 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 /USB_interface/USB_D+ )
+  (    3 /USB_interface/USB_D- )
+  (    4 +5VL )
+ )
+ ( /5084A60A SM0603  D1 CD0603-B0130L {Lib=DIODESCH}
+  (    1 N-000043 )
+  (    2 N-000033 )
+ )
+ ( /508483DE sc70-5  U3 TPS71701 {Lib=LDO}
+  (    1 N-000034 )
+  (    2 AGND )
+  (    3 +2.5V )
+  (    4 N-000054 )
+  (    5 +5VA )
+ )
+ ( /508483DD SM0402  C11 1u_10V {Lib=C}
+  (    1 N-000034 )
+  (    2 AGND )
+ )
+ ( /508483DC SM0402  C17 1u {Lib=C}
+  (    1 +5VA )
+  (    2 AGND )
+ )
+ ( /5084799C SM0402  C19 1u {Lib=C}
+  (    1 +2.5V )
+  (    2 AGND )
+ )
+ ( /50847194 sc70-5  U5 TPS71701 {Lib=LDO}
+  (    1 N-000034 )
+  (    2 AGND )
+  (    3 +1.8V )
+  (    4 N-000055 )
+  (    5 +2.5V )
+ )
+ ( /50847092 SM0402  C1 100n {Lib=C}
+  (    1 N-000048 )
+  (    2 GND )
+ )
+ ( /5084708D SM0402  R1 ? {Lib=R}
+  (    1 N-000047 )
+  (    2 GND )
+ )
+ ( /50847087 SM0402  C3 10nF? {Lib=C}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /5084705C SM0402  R5 ? {Lib=R}
+  (    1 GND )
+  (    2 N-000045 )
+ )
+ ( /50847021 SM0402  C5 100n {Lib=C}
+  (    1 N-000044 )
+  (    2 N-000056 )
+ )
+ ( /50827FE2 SM0402  C13 1u_10V {Lib=C}
+  (    1 N-000034 )
+  (    2 AGND )
+ )
+ ( /5081B78E SM0402  C18 1u {Lib=C}
+  (    1 +1.8V )
+  (    2 AGND )
+ )
+ ( /5081B774 SM0402  C12 1u_10V {Lib=C}
+  (    1 N-000034 )
+  (    2 AGND )
+ )
+ ( /5081B5C8 sc70-5  U4 TPS71701 {Lib=LDO}
+  (    1 N-000034 )
+  (    2 AGND )
+  (    3 N-000034 )
+  (    4 N-000032 )
+  (    5 +1.8V )
+ )
+ ( /507F4A37 MYPAD  P3 CONN_1 {Lib=CONN_1}
+  (    1 /Analog_interface/SHIELD )
+ )
+ ( /507F4431 SM0402  C9 1u {Lib=C}
+  (    1 +2.5V )
+  (    2 AGND )
+ )
+ ( /507F420C SM1206  C10 47u {Lib=C}
+  (    1 N-000034 )
+  (    2 AGND )
+ )
+ ( /507F4204 SM1206  L1 33uH_KEMET {Lib=INDUCTOR}
+  (    1 N-000033 )
+  (    2 N-000034 )
+ )
+ ( /507F4182 SM1206  C8 47u {Lib=C}
+  (    1 N-000033 )
+  (    2 AGND )
+ )
+ ( /507F34A9 SM0402  R6 ? {Lib=R}
+  (    1 N-000040 )
+  (    2 N-000045 )
+ )
+ ( /507F3265 SM1206  C2 47uF {Lib=C}
+  (    1 +5VP )
+  (    2 GND )
+ )
+ ( /507F1689 SO16W  U2 ISOLATOR {Lib=ISOLATOR}
+  (    1 GND )
+  (    2 GND )
+  (    3 N-000002 )
+  (    4 /USB_interface/ECG_DATA )
+  (    5 /USB_interface/CLOCK )
+  (    6 GND )
+  (    7 GND )
+  (    8 GND )
+  (    9 AGND )
+  (   10 AGND )
+  (   11 AGND )
+  (   12 /ADC_&_Control_logic/CLOCK )
+  (   13 /ADC_&_Control_logic/ECG_DATA )
+  (   14 +2.5V )
+  (   15 AGND )
+  (   16 AGND )
+ )
+ ( /507AC3F2/5098446A SM0402  C85 500p {Lib=C}
+  (    1 N-000134 )
+  (    2 N-000173 )
+ )
+ ( /507AC3F2/5098444F SM0402  C36 33p_50V {Lib=C}
+  (    1 N-000173 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/509843EE SM0402  C90 1n {Lib=C}
+  (    1 AGND )
+  (    2 N-000174 )
+ )
+ ( /507AC3F2/509843E7 SM0402  R102 1k {Lib=R}
+  (    1 N-000174 )
+  (    2 N-000136 )
+ )
+ ( /507AC3F2/50984174 SM0402  R105 100k {Lib=R}
+  (    1 N-000138 )
+  (    2 N-000179 )
+ )
+ ( /507AC3F2/50984020 SM0402  C92 33n {Lib=C}
+  (    1 N-000138 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/50984016 SM0402  C91 33n {Lib=C}
+  (    1 +5VA )
+  (    2 N-000138 )
+ )
+ ( /507AC3F2/50983EC4 SM0402  R103 22k {Lib=R}
+  (    1 +5VA )
+  (    2 N-000138 )
+ )
+ ( /507AC3F2/50983EA2 SM0402  R104 23k {Lib=R}
+  (    1 N-000138 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/50983E59 SM0402  R101 0 {Lib=R}
+  (    1 N-000177 )
+  (    2 N-000135 )
+ )
+ ( /507AC3F2/5094777E SM0402  R100 100k {Lib=R}
+  (    1 N-000180 )
+  (    2 /ADC_&_Control_logic/LEAD_TEST1 )
+ )
+ ( /507AC3F2/5094777D SM0402  C89 33n {Lib=C}
+  (    1 AGND )
+  (    2 N-000180 )
+ )
+ ( /507AC3F2/5094777A SM0402  C87 33n {Lib=C}
+  (    1 AGND )
+  (    2 N-000179 )
+ )
+ ( /507AC3F2/50947779 SM0402  R98 100k {Lib=R}
+  (    1 N-000179 )
+  (    2 N-000180 )
+ )
+ ( /507AC3F2/509466CB SM0402  C84 3.3n_50V {Lib=C}
+  (    1 N-000173 )
+  (    2 N-000135 )
+ )
+ ( /507AC3F2/509464E3 SM0402  C86 5n_NP0 {Lib=C}
+  (    1 AGND )
+  (    2 N-000177 )
+ )
+ ( /507AC3F2/509464E2 SM0402  R42 50k {Lib=R}
+  (    1 N-000177 )
+  (    2 N-000178 )
+ )
+ ( /507AC3F2/509464DF SM0402  R99 50k {Lib=R}
+  (    1 N-000178 )
+  (    2 N-000183 )
+ )
+ ( /507AC3F2/509464DE SM0402  C88 5n_NP0 {Lib=C}
+  (    1 AGND )
+  (    2 N-000178 )
+ )
+ ( /507AC3F2/5092E0FB SM0402  R90 ? {Lib=R}
+  (    1 N-000154 )
+  (    2 /Analog_interface/V1- )
+ )
+ ( /507AC3F2/5092E0E4 SM0402  R92 ? {Lib=R}
+  (    1 N-000127 )
+  (    2 /ADC_&_Control_logic/V3- )
+ )
+ ( /507AC3F2/5092E0DB SM0402  R93 ? {Lib=R}
+  (    1 N-000145 )
+  (    2 /Analog_interface/V4- )
+ )
+ ( /507AC3F2/5092E0D2 SM0402  R94 ? {Lib=R}
+  (    1 N-000164 )
+  (    2 /Analog_interface/V5- )
+ )
+ ( /507AC3F2/5092E0C9 SM0402  R95 ? {Lib=R}
+  (    1 N-000144 )
+  (    2 /Analog_interface/V6- )
+ )
+ ( /507AC3F2/5092E0BF SM0402  R91 ? {Lib=R}
+  (    1 N-000132 )
+  (    2 /ADC_&_Control_logic/V2- )
+ )
+ ( /507AC3F2/5092E0B4 SM0402  R89 ? {Lib=R}
+  (    1 /Analog_interface/BUFFERED_R- )
+  (    2 /ADC_&_Control_logic/R- )
+ )
+ ( /507AC3F2/5092E0AA SM0402  R88 ? {Lib=R}
+  (    1 /Analog_interface/BUFFERED_L- )
+  (    2 /Analog_interface/L- )
+ )
+ ( /507AC3F2/5085C0E8 SM0402  R48 5k {Lib=R}
+  (    1 N-000181 )
+  (    2 N-000136 )
+ )
+ ( /507AC3F2/5085EC3F TSSOP14  U92 OPA4 {Lib=OPA4}
+  (    1 N-000127 )
+  (    2 N-000165 )
+  (    3 /ADC_&_Control_logic/ECG_F )
+  (    4 +5VA )
+  (    5 N-000153 )
+  (    6 N-000171 )
+  (    7 N-000151 )
+  (    8 N-000145 )
+  (    9 N-000172 )
+  (   10 /ADC_&_Control_logic/ECG_F )
+  (   11 AGND )
+  (   12 N-000150 )
+  (   13 N-000166 )
+  (   14 N-000149 )
+ )
+ ( /507AC3F2/5085EBF3 TSSOP14  U91 OPA4 {Lib=OPA4}
+  (    1 N-000154 )
+  (    2 N-000187 )
+  (    3 /ADC_&_Control_logic/ECG_F )
+  (    4 +5VA )
+  (    5 N-000158 )
+  (    6 N-000193 )
+  (    7 N-000157 )
+  (    8 N-000132 )
+  (    9 N-000192 )
+  (   10 /ADC_&_Control_logic/ECG_F )
+  (   11 AGND )
+  (   12 N-000159 )
+  (   13 N-000186 )
+  (   14 N-000155 )
+ )
+ ( /507AC3F2/5085EBDB TSSOP14  U90 OPA4 {Lib=OPA4}
+  (    1 /Analog_interface/BUFFERED_L- )
+  (    2 N-000184 )
+  (    3 /ADC_&_Control_logic/ECG_F )
+  (    4 +5VA )
+  (    5 N-000131 )
+  (    6 N-000190 )
+  (    7 /Analog_interface/BUFFERED_R+ )
+  (    8 /Analog_interface/BUFFERED_R- )
+  (    9 N-000191 )
+  (   10 /ADC_&_Control_logic/ECG_F )
+  (   11 AGND )
+  (   12 N-000128 )
+  (   13 N-000185 )
+  (   14 /Analog_interface/BUFFERED_L+ )
+ )
+ ( /507AC3F2/5085EC5D SM0603  TH7 ESD {Lib=THERMISTOR}
+  (    1 N-000137 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085EC5B SM0402  C51 33p_50V {Lib=C}
+  (    1 AGND )
+  (    2 N-000137 )
+ )
+ ( /507AC3F2/5085EC59 MYMELF  R50 100k {Lib=R}
+  (    1 ? )
+  (    2 N-000137 )
+ )
+ ( /507AC3F2/5085EC53 SM0402  R68 ? {Lib=R}
+  (    1 N-000166 )
+  (    2 N-000149 )
+ )
+ ( /507AC3F2/5085EC52 SM0402  R64 ? {Lib=R}
+  (    1 N-000166 )
+  (    2 N-000165 )
+ )
+ ( /507AC3F2/5085EC51 SM0402  R69 ? {Lib=R}
+  (    1 N-000165 )
+  (    2 N-000127 )
+ )
+ ( /507AC3F2/5085EC50 SM0402  C61 C {Lib=C}
+  (    1 N-000127 )
+  (    2 N-000165 )
+ )
+ ( /507AC3F2/5085EC4F SM0402  C60 C {Lib=C}
+  (    1 N-000149 )
+  (    2 N-000166 )
+ )
+ ( /507AC3F2/5085EC4E SM0402  R76 ? {Lib=R}
+  (    1 N-000149 )
+  (    2 /Analog_interface/V3+ )
+ )
+ ( /507AC3F2/5085EC4C SM0402  C69 C {Lib=C}
+  (    1 /ADC_&_Control_logic/V3- )
+  (    2 /Analog_interface/V3+ )
+ )
+ ( /507AC3F2/5085EC4B SM0402  R59 10k {Lib=R}
+  (    1 N-000137 )
+  (    2 N-000150 )
+ )
+ ( /507AC3F2/5085EC4A SM0402  R60 10k {Lib=R}
+  (    1 N-000152 )
+  (    2 N-000153 )
+ )
+ ( /507AC3F2/5085EC49 SM0402  C70 C {Lib=C}
+  (    1 /Analog_interface/V4- )
+  (    2 /Analog_interface/V4+ )
+ )
+ ( /507AC3F2/5085EC47 SM0402  R77 ? {Lib=R}
+  (    1 N-000151 )
+  (    2 /Analog_interface/V4+ )
+ )
+ ( /507AC3F2/5085EC46 SM0402  C62 C {Lib=C}
+  (    1 N-000151 )
+  (    2 N-000171 )
+ )
+ ( /507AC3F2/5085EC45 SM0402  C63 C {Lib=C}
+  (    1 N-000145 )
+  (    2 N-000172 )
+ )
+ ( /507AC3F2/5085EC44 SM0402  R71 ? {Lib=R}
+  (    1 N-000172 )
+  (    2 N-000145 )
+ )
+ ( /507AC3F2/5085EC43 SM0402  R65 ? {Lib=R}
+  (    1 N-000171 )
+  (    2 N-000172 )
+ )
+ ( /507AC3F2/5085EC42 SM0402  R70 ? {Lib=R}
+  (    1 N-000171 )
+  (    2 N-000151 )
+ )
+ ( /507AC3F2/5085EC3C MYMELF  R51 100k {Lib=R}
+  (    1 ? )
+  (    2 N-000152 )
+ )
+ ( /507AC3F2/5085EC3A SM0402  C52 33p_50V {Lib=C}
+  (    1 AGND )
+  (    2 N-000152 )
+ )
+ ( /507AC3F2/5085EC38 SM0603  TH8 ESD {Lib=THERMISTOR}
+  (    1 N-000152 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085EC37 SM0603  TH10 ESD {Lib=THERMISTOR}
+  (    1 N-000148 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085EC35 SM0402  C54 33p_50V {Lib=C}
+  (    1 AGND )
+  (    2 N-000148 )
+ )
+ ( /507AC3F2/5085EC33 MYMELF  R53 100k {Lib=R}
+  (    1 ? )
+  (    2 N-000148 )
+ )
+ ( /507AC3F2/5085EC31 TSSOP14  U93 OPA4 {Lib=OPA4}
+  (    1 N-000164 )
+  (    2 N-000188 )
+  (    3 /ADC_&_Control_logic/ECG_F )
+  (    4 +5VA )
+  (    5 N-000146 )
+  (    6 N-000169 )
+  (    7 N-000147 )
+  (    8 N-000144 )
+  (    9 N-000170 )
+  (   10 /ADC_&_Control_logic/ECG_F )
+  (   11 AGND )
+  (   12 N-000161 )
+  (   13 N-000189 )
+  (   14 N-000160 )
+ )
+ ( /507AC3F2/5085EC2D SM0402  R74 ? {Lib=R}
+  (    1 N-000169 )
+  (    2 N-000147 )
+ )
+ ( /507AC3F2/5085EC2C SM0402  R67 ? {Lib=R}
+  (    1 N-000169 )
+  (    2 N-000170 )
+ )
+ ( /507AC3F2/5085EC2B SM0402  R75 ? {Lib=R}
+  (    1 N-000170 )
+  (    2 N-000144 )
+ )
+ ( /507AC3F2/5085EC2A SM0402  C67 C {Lib=C}
+  (    1 N-000144 )
+  (    2 N-000170 )
+ )
+ ( /507AC3F2/5085EC29 SM0402  C66 C {Lib=C}
+  (    1 N-000147 )
+  (    2 N-000169 )
+ )
+ ( /507AC3F2/5085EC28 SM0402  R79 ? {Lib=R}
+  (    1 N-000147 )
+  (    2 /Analog_interface/V6+ )
+ )
+ ( /507AC3F2/5085EC26 SM0402  C72 C {Lib=C}
+  (    1 /Analog_interface/V6- )
+  (    2 /Analog_interface/V6+ )
+ )
+ ( /507AC3F2/5085EC25 SM0402  R62 10k {Lib=R}
+  (    1 N-000148 )
+  (    2 N-000146 )
+ )
+ ( /507AC3F2/5085EC24 SM0402  R61 10k {Lib=R}
+  (    1 N-000163 )
+  (    2 N-000161 )
+ )
+ ( /507AC3F2/5085EC23 SM0402  C71 C {Lib=C}
+  (    1 /Analog_interface/V5- )
+  (    2 /Analog_interface/V5+ )
+ )
+ ( /507AC3F2/5085EC21 SM0402  R78 ? {Lib=R}
+  (    1 N-000160 )
+  (    2 /Analog_interface/V5+ )
+ )
+ ( /507AC3F2/5085EC20 SM0402  C64 C {Lib=C}
+  (    1 N-000160 )
+  (    2 N-000189 )
+ )
+ ( /507AC3F2/5085EC1F SM0402  C65 C {Lib=C}
+  (    1 N-000164 )
+  (    2 N-000188 )
+ )
+ ( /507AC3F2/5085EC1E SM0402  R73 ? {Lib=R}
+  (    1 N-000188 )
+  (    2 N-000164 )
+ )
+ ( /507AC3F2/5085EC1D SM0402  R66 ? {Lib=R}
+  (    1 N-000189 )
+  (    2 N-000188 )
+ )
+ ( /507AC3F2/5085EC1C SM0402  R72 ? {Lib=R}
+  (    1 N-000189 )
+  (    2 N-000160 )
+ )
+ ( /507AC3F2/5085EC16 MYMELF  R52 100k {Lib=R}
+  (    1 ? )
+  (    2 N-000163 )
+ )
+ ( /507AC3F2/5085EC14 SM0402  C53 33p_50V {Lib=C}
+  (    1 AGND )
+  (    2 N-000163 )
+ )
+ ( /507AC3F2/5085EC12 SM0603  TH9 ESD {Lib=THERMISTOR}
+  (    1 N-000163 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085EC11 SM0603  TH3 ESD {Lib=THERMISTOR}
+  (    1 N-000162 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085EC0F SM0402  C32 33p_50V {Lib=C}
+  (    1 AGND )
+  (    2 N-000162 )
+ )
+ ( /507AC3F2/5085EC0D MYMELF  R17 100k {Lib=R}
+  (    1 ? )
+  (    2 N-000162 )
+ )
+ ( /507AC3F2/5085EC07 SM0402  R38 ? {Lib=R}
+  (    1 N-000186 )
+  (    2 N-000155 )
+ )
+ ( /507AC3F2/5085EC06 SM0402  R32 ? {Lib=R}
+  (    1 N-000186 )
+  (    2 N-000187 )
+ )
+ ( /507AC3F2/5085EC05 SM0402  R39 ? {Lib=R}
+  (    1 N-000187 )
+  (    2 N-000154 )
+ )
+ ( /507AC3F2/5085EC04 SM0402  C42 C {Lib=C}
+  (    1 N-000154 )
+  (    2 N-000187 )
+ )
+ ( /507AC3F2/5085EC03 SM0402  C41 C {Lib=C}
+  (    1 N-000155 )
+  (    2 N-000186 )
+ )
+ ( /507AC3F2/5085EC02 SM0402  R46 ? {Lib=R}
+  (    1 N-000155 )
+  (    2 /Analog_interface/V1+ )
+ )
+ ( /507AC3F2/5085EC00 SM0402  C49 C {Lib=C}
+  (    1 /Analog_interface/V1- )
+  (    2 /Analog_interface/V1+ )
+ )
+ ( /507AC3F2/5085EBFF SM0402  R23 10k {Lib=R}
+  (    1 N-000162 )
+  (    2 N-000159 )
+ )
+ ( /507AC3F2/5085EBFE SM0402  R24 10k {Lib=R}
+  (    1 N-000156 )
+  (    2 N-000158 )
+ )
+ ( /507AC3F2/5085EBFD SM0402  C50 C {Lib=C}
+  (    1 /ADC_&_Control_logic/V2- )
+  (    2 /ADC_&_Control_logic/V2+ )
+ )
+ ( /507AC3F2/5085EBFB SM0402  R47 ? {Lib=R}
+  (    1 N-000157 )
+  (    2 /ADC_&_Control_logic/V2+ )
+ )
+ ( /507AC3F2/5085EBFA SM0402  C43 C {Lib=C}
+  (    1 N-000157 )
+  (    2 N-000193 )
+ )
+ ( /507AC3F2/5085EBF9 SM0402  C44 C {Lib=C}
+  (    1 N-000132 )
+  (    2 N-000192 )
+ )
+ ( /507AC3F2/5085EBF8 SM0402  R41 ? {Lib=R}
+  (    1 N-000192 )
+  (    2 N-000132 )
+ )
+ ( /507AC3F2/5085EBF7 SM0402  R33 ? {Lib=R}
+  (    1 N-000193 )
+  (    2 N-000192 )
+ )
+ ( /507AC3F2/5085EBF6 SM0402  R40 ? {Lib=R}
+  (    1 N-000193 )
+  (    2 N-000157 )
+ )
+ ( /507AC3F2/5085EBF0 MYMELF  R18 100k {Lib=R}
+  (    1 ? )
+  (    2 N-000156 )
+ )
+ ( /507AC3F2/5085EBEE SM0402  C33 33p_50V {Lib=C}
+  (    1 AGND )
+  (    2 N-000156 )
+ )
+ ( /507AC3F2/5085EBEC SM0603  TH4 ESD {Lib=THERMISTOR}
+  (    1 N-000156 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085EBE2 SM0603  TH2 ESD {Lib=THERMISTOR}
+  (    1 N-000133 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085EBE0 SM0402  C31 33p_50V {Lib=C}
+  (    1 AGND )
+  (    2 N-000133 )
+ )
+ ( /507AC3F2/5085EBDE MYMELF  R16 100k {Lib=R}
+  (    1 ? )
+  (    2 N-000133 )
+ )
+ ( /507AC3F2/5085EBD8 SM0402  R36 ? {Lib=R}
+  (    1 N-000190 )
+  (    2 /Analog_interface/BUFFERED_R+ )
+ )
+ ( /507AC3F2/5085EBD7 SM0402  R31 ? {Lib=R}
+  (    1 N-000190 )
+  (    2 N-000191 )
+ )
+ ( /507AC3F2/5085EBD6 SM0402  R37 ? {Lib=R}
+  (    1 N-000191 )
+  (    2 /Analog_interface/BUFFERED_R- )
+ )
+ ( /507AC3F2/5085EBD5 SM0402  C40 C {Lib=C}
+  (    1 /Analog_interface/BUFFERED_R- )
+  (    2 N-000191 )
+ )
+ ( /507AC3F2/5085EBD4 SM0402  C39 C {Lib=C}
+  (    1 /Analog_interface/BUFFERED_R+ )
+  (    2 N-000190 )
+ )
+ ( /507AC3F2/5085EBD3 SM0402  R45 ? {Lib=R}
+  (    1 /Analog_interface/BUFFERED_R+ )
+  (    2 /ADC_&_Control_logic/R+ )
+ )
+ ( /507AC3F2/5085EBD1 SM0402  C48 C {Lib=C}
+  (    1 /ADC_&_Control_logic/R- )
+  (    2 /ADC_&_Control_logic/R+ )
+ )
+ ( /507AC3F2/5085EBD0 SM0402  R22 10k {Lib=R}
+  (    1 N-000133 )
+  (    2 N-000131 )
+ )
+ ( /507AC3F2/5085E3B5 SM0402  C46 5n_NP0 {Lib=C}
+  (    1 AGND )
+  (    2 N-000183 )
+ )
+ ( /507AC3F2/5085E05F SM0402  R49 50k {Lib=R}
+  (    1 N-000183 )
+  (    2 /Analog_interface/LEAD_TEST2 )
+ )
+ ( /507AC3F2/5085D0CF SM0603  TH6 ESD {Lib=THERMISTOR}
+  (    1 N-000173 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085CF55 SM0603  FB1 FILTER {Lib=FILTER}
+  (    1 N-000173 )
+  (    2 /Analog_interface/SHIELD )
+ )
+ ( /507AC3F2/5085CF2F SM0402  R20 440 {Lib=R}
+  (    1 N-000173 )
+  (    2 N-000134 )
+ )
+ ( /507AC3F2/5085C9A1 SM0402  R25 1k {Lib=R}
+  (    1 N-000141 )
+  (    2 N-000130 )
+ )
+ ( /507AC3F2/5085C99F MYMELF  R19 33k {Lib=R}
+  (    1 ? )
+  (    2 N-000141 )
+ )
+ ( /507AC3F2/5085C99B SM0603  TH5 ESD {Lib=THERMISTOR}
+  (    1 N-000141 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085C5F4 SM0603  TH11 ESD {Lib=THERMISTOR}
+  (    1 N-000129 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085C5F2 SM0402  C56 33p_50V {Lib=C}
+  (    1 AGND )
+  (    2 N-000129 )
+ )
+ ( /507AC3F2/5085C5F0 MYMELF  R58 100k {Lib=R}
+  (    1 ? )
+  (    2 N-000129 )
+ )
+ ( /507AC3F2/5085C5EE SM0402  R63 10k {Lib=R}
+  (    1 N-000129 )
+  (    2 N-000143 )
+ )
+ ( /507AC3F2/5085C4AF SM0402  R21 10k {Lib=R}
+  (    1 N-000139 )
+  (    2 N-000128 )
+ )
+ ( /507AC3F2/5085C2AF SM0805  C35 1u_50V {Lib=C}
+  (    1 N-000176 )
+  (    2 N-000130 )
+ )
+ ( /507AC3F2/5085C2A3 SM0402  C34 220p_50V {Lib=C}
+  (    1 N-000130 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085C294 SM0402  R27 150k {Lib=R}
+  (    1 N-000130 )
+  (    2 N-000176 )
+ )
+ ( /507AC3F2/5085C1F4 SM0402  C45 33p {Lib=C}
+  (    1 N-000176 )
+  (    2 N-000181 )
+ )
+ ( /507AC3F2/5085C1D4 SM0402  R28 100 {Lib=R}
+  (    1 N-000142 )
+  (    2 N-000176 )
+ )
+ ( /507AC3F2/5085C0ED SM0402  R43 100k {Lib=R}
+  (    1 N-000176 )
+  (    2 N-000181 )
+ )
+ ( /507AC3F2/5085B7DB TSSOP14  U94 OPA4 {Lib=OPA4}
+  (    1 N-000136 )
+  (    2 N-000136 )
+  (    3 N-000182 )
+  (    4 +5VA )
+  (    5 N-000143 )
+  (    6 /ADC_&_Control_logic/ECG_F )
+  (    7 /ADC_&_Control_logic/ECG_F )
+  (    8 N-000142 )
+  (    9 N-000181 )
+  (   10 N-000138 )
+  (   11 AGND )
+  (   12 N-000174 )
+  (   13 N-000134 )
+  (   14 N-000134 )
+ )
+ ( /507AC3F2/5085B570 SM0402  R54 100k {Lib=R}
+  (    1 N-000182 )
+  (    2 /Analog_interface/BUFFERED_R+ )
+ )
+ ( /507AC3F2/5085B567 SM0402  R57 100k {Lib=R}
+  (    1 N-000182 )
+  (    2 /Analog_interface/BUFFERED_L- )
+ )
+ ( /507AC3F2/5085B563 SM0402  R56 100k {Lib=R}
+  (    1 N-000182 )
+  (    2 /Analog_interface/BUFFERED_L+ )
+ )
+ ( /507AC3F2/5085B55B SM0402  R55 100k {Lib=R}
+  (    1 N-000182 )
+  (    2 /Analog_interface/BUFFERED_R- )
+ )
+ ( /507AC3F2/5085A887 SM0402  C55 200n {Lib=C}
+  (    1 +5VA )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085A886 SM0402  C57 200n {Lib=C}
+  (    1 +5VA )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5085A78F SM0402  C47 C {Lib=C}
+  (    1 /Analog_interface/L- )
+  (    2 /ADC_&_Control_logic/L+ )
+ )
+ ( /507AC3F2/5085A788 SM0402  R44 ? {Lib=R}
+  (    1 /Analog_interface/BUFFERED_L+ )
+  (    2 /ADC_&_Control_logic/L+ )
+ )
+ ( /507AC3F2/5085A119 SM0402  C37 C {Lib=C}
+  (    1 /Analog_interface/BUFFERED_L+ )
+  (    2 N-000185 )
+ )
+ ( /507AC3F2/5085A115 SM0402  C38 C {Lib=C}
+  (    1 /Analog_interface/BUFFERED_L- )
+  (    2 N-000184 )
+ )
+ ( /507AC3F2/50859CBF SM0402  R35 ? {Lib=R}
+  (    1 N-000184 )
+  (    2 /Analog_interface/BUFFERED_L- )
+ )
+ ( /507AC3F2/50859CB3 SM0402  R30 ? {Lib=R}
+  (    1 N-000185 )
+  (    2 N-000184 )
+ )
+ ( /507AC3F2/50859CA9 SM0402  R34 ? {Lib=R}
+  (    1 N-000185 )
+  (    2 /Analog_interface/BUFFERED_L+ )
+ )
+ ( /507AC3F2/5084A8BC MYMELF  R15 100k {Lib=R}
+  (    1 ? )
+  (    2 N-000139 )
+ )
+ ( /507AC3F2/5084A88F SM0402  C30 33p_50V {Lib=C}
+  (    1 AGND )
+  (    2 N-000139 )
+ )
+ ( /507AC3F2/5084A845 SM0603  TH1 ESD {Lib=THERMISTOR}
+  (    1 N-000139 )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5084A264 SM0402  C68 200n {Lib=C}
+  (    1 +5VA )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5084A259 SM0402  C59 200n {Lib=C}
+  (    1 +5VA )
+  (    2 AGND )
+ )
+ ( /507AC3F2/5084A20E SM0402  C58 200n {Lib=C}
+  (    1 +5VA )
+  (    2 AGND )
+ )
+ ( /5070C32D/5122CFD5 SM0402  R113 22k {Lib=R}
+  (    1 N-000093 )
+  (    2 +5VL )
+ )
+ ( /5070C32D/5117D608 SM0402  R97 10k {Lib=R}
+  (    1 N-000119 )
+  (    2 +5VP )
+ )
+ ( /5070C32D/50BBCB78 SM0402  R4 inf {Lib=R}
+  (    1 N-000120 )
+  (    2 GND )
+ )
+ ( /5070C32D/50BBCB67 SM0402  R3 10k {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000120 )
+ )
+ ( /5070C32D/50AECF6B SM0402  R112 600 {Lib=R}
+  (    1 GND )
+  (    2 N-000122 )
+ )
+ ( /5070C32D/50AECF55 SM0402  R111 600 {Lib=R}
+  (    1 GND )
+  (    2 N-000096 )
+ )
+ ( /5070C32D/50AECF3E SM0402  D7 LED {Lib=LED}
+  (    1 N-000121 )
+  (    2 N-000122 )
+ )
+ ( /5070C32D/00000000 SM0402  D6 LED {Lib=LED}
+  (    1 N-000123 )
+  (    2 N-000096 )
+ )
+ ( /5070C32D/50AECF93 XTAL3.5x2.7  U12 MYXTAL {Lib=MYXTAL}
+  (    1 N-000094 )
+  (    2 GND )
+  (    3 N-000124 )
+  (    4 GND )
+ )
+ ( /5070C32D/509FEBEA SM0402  C73 100n,_20V {Lib=C}
+  (    1 +5VL )
+  (    2 GND )
+ )
+ ( /5070C32D/5092EFB3 SM0402  R96 10k {Lib=R}
+  (    1 /USB_interface/~ISO_PWR )
+  (    2 +3.3V )
+ )
+ ( /5070C32D/5092DC71 SO8N  U9 SFLASH {Lib=SFLASH}
+  (    1 N-000101 )
+  (    2 N-000108 )
+  (    3 N-000099 )
+  (    4 GND )
+  (    5 N-000125 )
+  (    6 N-000126 )
+  (    7 N-000090 )
+  (    8 +3.3V )
+  (    9 GND )
+ )
+ ( /5070C32D/5092C53A SOT23-5  U7 TPS62203 {Lib=TPS6220X}
+  (    1 +5VP )
+  (    2 GND )
+  (    3 +5VP )
+  (    4 +3.3V )
+  (    5 N-000091 )
+ )
+ ( /5070C32D/50929E0B SM0402  R13 10k {Lib=R}
+  (    1 /USB_interface/POWER_ON )
+  (    2 GND )
+ )
+ ( /5070C32D/50927A76 SM0402  R12 10k {Lib=R}
+  (    1 GND )
+  (    2 N-000103 )
+ )
+ ( /5070C32D/5092786A SM0402  R11 10k {Lib=R}
+  (    1 N-000090 )
+  (    2 GND )
+ )
+ ( /5070C32D/5092781B SM0402  R14 10k {Lib=R}
+  (    1 N-000099 )
+  (    2 GND )
+ )
+ ( /5070C32D/5091E79C SM0402  C29 440n {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5070C32D/5091E76A SM0603  C21 10u,_6V {Lib=C}
+  (    1 +5VP )
+  (    2 GND )
+ )
+ ( /5070C32D/5091E741 SM1206  C20 33u,_20V {Lib=C}
+  (    1 +5VL )
+  (    2 GND )
+ )
+ ( /5070C32D/5091E3A5 DSON10  U6 TPD4S014 {Lib=TPD4S014}
+  (    1 +5VP )
+  (    2 +5VP )
+  (    3 GND )
+  (    4 N-000093 )
+  (    5 ? )
+  (    6 /USB_interface/USB_D- )
+  (    7 /USB_interface/USB_D+ )
+  (    8 GND )
+  (    9 +5VL )
+  (   10 +5VL )
+  (   11 GND )
+ )
+ ( /5070C32D/5091C8D5 SM0402  C27 20p {Lib=C}
+  (    1 N-000124 )
+  (    2 GND )
+ )
+ ( /5070C32D/5091C8A4 SM0402  C26 20p {Lib=C}
+  (    1 N-000094 )
+  (    2 GND )
+ )
+ ( /5070C32D/5091B082 SM0603  D2 DIODESCH {Lib=DIODESCH}
+  (    1 GND )
+  (    2 N-000091 )
+ )
+ ( /5070C32D/5091AEE3 SM0603  C28 10u {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5070C32D/5091AEB5 SM0603  C25 4.7uF_10V {Lib=C}
+  (    1 +5VP )
+  (    2 GND )
+ )
+ ( /5070C32D/5091ADBF SM0805  L2 10uH {Lib=INDUCTOR}
+  (    1 N-000091 )
+  (    2 +3.3V )
+ )
+ ( /5070C32D/5089CEBF SM0402  C24 1u {Lib=C}
+  (    1 N-000095 )
+  (    2 GND )
+ )
+ ( /5070C32D/5089CEA6 SM0402  C22 100n {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5070C32D/5089CDD2 SM0402  C23 100n {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5070C32D/5086F0CD SM0402  R8 ? {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000118 )
+ )
+ ( /5070C32D/5086ECB9 SM0402  R7 ? {Lib=R}
+  (    1 /USB_interface/USB_D+ )
+  (    2 +3.3V )
+ )
+ ( /5070C32D/5086ECA2 SM0402  R10 ? {Lib=R}
+  (    1 N-000117 )
+  (    2 /USB_interface/USB_D- )
+ )
+ ( /5070C32D/5086EC8B SM0402  R9 ? {Lib=R}
+  (    1 N-000116 )
+  (    2 /USB_interface/USB_D+ )
+ )
+ ( /5070C32D/508336AC MYQFN48  U8 ATUC64D4 {Lib=ATUC64D4}
+  (    1 GND )
+  (    2 ? )
+  (    3 N-000108 )
+  (    4 N-000125 )
+  (    5 N-000126 )
+  (    6 ? )
+  (    7 N-000090 )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 N-000099 )
+  (   13 GND )
+  (   14 +3.3V )
+  (   15 +3.3V )
+  (   16 N-000095 )
+  (   17 +3.3V )
+  (   18 N-000095 )
+  (   19 GND )
+  (   20 N-000103 )
+  (   21 N-000101 )
+  (   22 ? )
+  (   23 N-000123 )
+  (   24 +3.3V )
+  (   25 N-000120 )
+  (   26 ? )
+  (   27 N-000121 )
+  (   28 ? )
+  (   29 ? )
+  (   30 N-000124 )
+  (   31 N-000094 )
+  (   32 /USB_interface/CLOCK )
+  (   33 /USB_interface/POWER_ON )
+  (   34 /USB_interface/PWR_FAULT )
+  (   35 /USB_interface/~ISO_PWR )
+  (   36 +3.3V )
+  (   37 GND )
+  (   38 N-000116 )
+  (   39 N-000117 )
+  (   40 N-000119 )
+  (   41 ? )
+  (   42 ? )
+  (   43 /USB_interface/ECG_DATA )
+  (   44 ? )
+  (   45 ? )
+  (   46 ? )
+  (   47 N-000118 )
+  (   48 +3.3V )
+  (   49 GND )
+ )
+ ( /5070C281/5122B644 SM0402  C14 2.2u {Lib=C}
+  (    1 N-000066 )
+  (    2 AGND )
+ )
+ ( /5070C281/5075E823 SSOP8  U10 REF5025 {Lib=REF5025}
+  (    1 ? )
+  (    2 +5VA )
+  (    3 ? )
+  (    4 AGND )
+  (    5 N-000066 )
+  (    6 /ADC_&_Control_logic/VREF )
+  (    7 AGND )
+  (    8 ? )
+ )
+ ( /5070C281/50AC3D40 XTAL3.5x2.7  U13 MYXTAL {Lib=MYXTAL}
+  (    1 N-000065 )
+  (    2 AGND )
+  (    3 N-000077 )
+  (    4 AGND )
+ )
+ ( /5070C281/50967BE7 SM0402  R29 50 {Lib=R}
+  (    1 N-000071 )
+  (    2 N-000072 )
+ )
+ ( /5070C281/50847AD6 SM0402  R81 100k {Lib=R}
+  (    1 AGND )
+  (    2 /ADC_&_Control_logic/ADPWR )
+ )
+ ( /5070C281/50847A70 SM0603  C75 10u {Lib=C}
+  (    1 AGND )
+  (    2 +2.5V )
+ )
+ ( /5070C281/507F2ED0 MYPROG  P5 CONN_5 {Lib=CONN_5}
+  (    1 AGND )
+  (    2 /ADC_&_Control_logic/INT_AD )
+  (    3 /ADC_&_Control_logic/LEAD_TEST1 )
+  (    4 N-000073 )
+  (    5 N-000079 )
+ )
+ ( /5070C281/507F21A7 SM0402  C82 ? {Lib=C}
+  (    1 AGND )
+  (    2 N-000074 )
+ )
+ ( /5070C281/507AED0B SM0402  C81 ? {Lib=C}
+  (    1 AGND )
+  (    2 N-000089 )
+ )
+ ( /5070C281/507A2741 SM0603  C76 10u {Lib=C}
+  (    1 AGND )
+  (    2 +1.8V )
+ )
+ ( /5070C281/507A26FD SM0603  C77 10u {Lib=C}
+  (    1 AGND )
+  (    2 +5VA )
+ )
+ ( /5070C281/507A166D SM0402  R80 50 {Lib=R}
+  (    1 N-000075 )
+  (    2 /ADC_&_Control_logic/ECG_DATA )
+ )
+ ( /5070C281/507A15C4 SM0402  R82 50 {Lib=R}
+  (    1 /ADC_&_Control_logic/CLOCK )
+  (    2 N-000073 )
+ )
+ ( /5070C281/507A14F8 SM0402  C80 20p {Lib=C}
+  (    1 N-000077 )
+  (    2 AGND )
+ )
+ ( /5070C281/507A14E7 SM0402  C79 20p {Lib=C}
+  (    1 N-000065 )
+  (    2 AGND )
+ )
+ ( /5070C281/507A14B9 SM0402  R84 50 {Lib=R}
+  (    1 N-000064 )
+  (    2 N-000078 )
+ )
+ ( /5070C281/507A087E SM0402  R85 10k {Lib=R}
+  (    1 AGND )
+  (    2 N-000089 )
+ )
+ ( /5070C281/507A086B SM0402  R83 40k {Lib=R}
+  (    1 N-000089 )
+  (    2 /ADC_&_Control_logic/ECG_F )
+ )
+ ( /5070C281/507A0068 SM0402  R86 10k {Lib=R}
+  (    1 N-000079 )
+  (    2 +2.5V )
+ )
+ ( /5070C281/507605FC SM0402  C83 200n {Lib=C}
+  (    1 +2.5V )
+  (    2 AGND )
+ )
+ ( /5070C281/5075F7F5 SM0805  C78 22u {Lib=C}
+  (    1 /ADC_&_Control_logic/VREF )
+  (    2 AGND )
+ )
+ ( /5070C281/5075F6BB SM0603  C74 4.7u {Lib=C}
+  (    1 +5VA )
+  (    2 AGND )
+ )
+ ( /5070C281/5075F22B QFN20  IC1 ATTINY24-M {Lib=ATTINY24-M}
+  (    1 N-000073 )
+  (    2 /ADC_&_Control_logic/ADPWR )
+  (    3 N-000072 )
+  (    4 /Analog_interface/LEAD_TEST2 )
+  (    5 N-000074 )
+  (    8 AGND )
+  (    9 +2.5V )
+  (   11 N-000077 )
+  (   12 N-000065 )
+  (   13 N-000079 )
+  (   14 N-000078 )
+  (   15 N-000089 )
+  (   16 /ADC_&_Control_logic/INT_AD )
+  (   20 /ADC_&_Control_logic/LEAD_TEST1 )
+  (   21 AGND )
+ )
+ ( /5070C281/5075D71D HTQFP_64  U11 ADS1278 {Lib=ADS1278}
+  (    1 /ADC_&_Control_logic/R+ )
+  (    2 /ADC_&_Control_logic/R- )
+  (    3 /ADC_&_Control_logic/L+ )
+  (    4 /Analog_interface/L- )
+  (    5 +5VA )
+  (    6 AGND )
+  (    7 AGND )
+  (    8 AGND )
+  (    9 AGND )
+  (   10 AGND )
+  (   11 +1.8V )
+  (   12 /ADC_&_Control_logic/INT_AD )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 N-000075 )
+  (   21 AGND )
+  (   22 +2.5V )
+  (   23 +2.5V )
+  (   24 AGND )
+  (   25 AGND )
+  (   26 +1.8V )
+  (   27 N-000064 )
+  (   28 /ADC_&_Control_logic/CLOCK )
+  (   29 N-000071 )
+  (   30 AGND )
+  (   31 AGND )
+  (   32 AGND )
+  (   33 +1.8V )
+  (   34 +1.8V )
+  (   35 /ADC_&_Control_logic/ADPWR )
+  (   36 /ADC_&_Control_logic/ADPWR )
+  (   37 /ADC_&_Control_logic/ADPWR )
+  (   38 /ADC_&_Control_logic/ADPWR )
+  (   39 /ADC_&_Control_logic/ADPWR )
+  (   40 /ADC_&_Control_logic/ADPWR )
+  (   41 /ADC_&_Control_logic/ADPWR )
+  (   42 /ADC_&_Control_logic/ADPWR )
+  (   43 AGND )
+  (   44 +5VA )
+  (   45 /Analog_interface/V6+ )
+  (   46 /Analog_interface/V6- )
+  (   47 /Analog_interface/V5+ )
+  (   48 /Analog_interface/V5- )
+  (   49 /Analog_interface/V4+ )
+  (   50 /Analog_interface/V4- )
+  (   51 /Analog_interface/V3+ )
+  (   52 /ADC_&_Control_logic/V3- )
+  (   53 +5VA )
+  (   54 AGND )
+  (   55 ? )
+  (   56 /ADC_&_Control_logic/VREF )
+  (   57 AGND )
+  (   58 AGND )
+  (   59 AGND )
+  (   60 +5VA )
+  (   61 /ADC_&_Control_logic/V2+ )
+  (   62 /ADC_&_Control_logic/V2- )
+  (   63 /Analog_interface/V1+ )
+  (   64 /Analog_interface/V1- )
+  (   65 AGND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R110
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R109
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R107
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R108
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R106
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R87
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component C93
+ SM*
+ C?
+ C1-1
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D3
+ D?
+ SO*
+ SM*
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C85
+ SM*
+ C?
+ C1-1
+$endlist
+$component C36
+ SM*
+ C?
+ C1-1
+$endlist
+$component C90
+ SM*
+ C?
+ C1-1
+$endlist
+$component R102
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R105
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C92
+ SM*
+ C?
+ C1-1
+$endlist
+$component C91
+ SM*
+ C?
+ C1-1
+$endlist
+$component R103
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R104
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R101
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R100
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C89
+ SM*
+ C?
+ C1-1
+$endlist
+$component C87
+ SM*
+ C?
+ C1-1
+$endlist
+$component R98
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C84
+ SM*
+ C?
+ C1-1
+$endlist
+$component C86
+ SM*
+ C?
+ C1-1
+$endlist
+$component R42
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R99
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C88
+ SM*
+ C?
+ C1-1
+$endlist
+$component R90
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R92
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R93
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R94
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R95
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R91
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R89
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R88
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R48
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component TH7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C51
+ SM*
+ C?
+ C1-1
+$endlist
+$component R50
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R68
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R64
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R69
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C61
+ SM*
+ C?
+ C1-1
+$endlist
+$component C60
+ SM*
+ C?
+ C1-1
+$endlist
+$component R76
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C69
+ SM*
+ C?
+ C1-1
+$endlist
+$component R59
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R60
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C70
+ SM*
+ C?
+ C1-1
+$endlist
+$component R77
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C62
+ SM*
+ C?
+ C1-1
+$endlist
+$component C63
+ SM*
+ C?
+ C1-1
+$endlist
+$component R71
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R65
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R70
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R51
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C52
+ SM*
+ C?
+ C1-1
+$endlist
+$component TH8
+ R?
+ SM0603
+ SM0805
+$endlist
+$component TH10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C54
+ SM*
+ C?
+ C1-1
+$endlist
+$component R53
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R74
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R67
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R75
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C67
+ SM*
+ C?
+ C1-1
+$endlist
+$component C66
+ SM*
+ C?
+ C1-1
+$endlist
+$component R79
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C72
+ SM*
+ C?
+ C1-1
+$endlist
+$component R62
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R61
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C71
+ SM*
+ C?
+ C1-1
+$endlist
+$component R78
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C64
+ SM*
+ C?
+ C1-1
+$endlist
+$component C65
+ SM*
+ C?
+ C1-1
+$endlist
+$component R73
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R66
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R72
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R52
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C53
+ SM*
+ C?
+ C1-1
+$endlist
+$component TH9
+ R?
+ SM0603
+ SM0805
+$endlist
+$component TH3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C32
+ SM*
+ C?
+ C1-1
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R38
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R39
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C42
+ SM*
+ C?
+ C1-1
+$endlist
+$component C41
+ SM*
+ C?
+ C1-1
+$endlist
+$component R46
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C49
+ SM*
+ C?
+ C1-1
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C50
+ SM*
+ C?
+ C1-1
+$endlist
+$component R47
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C43
+ SM*
+ C?
+ C1-1
+$endlist
+$component C44
+ SM*
+ C?
+ C1-1
+$endlist
+$component R41
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R40
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C33
+ SM*
+ C?
+ C1-1
+$endlist
+$component TH4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component TH2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R36
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R37
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C40
+ SM*
+ C?
+ C1-1
+$endlist
+$component C39
+ SM*
+ C?
+ C1-1
+$endlist
+$component R45
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C48
+ SM*
+ C?
+ C1-1
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C46
+ SM*
+ C?
+ C1-1
+$endlist
+$component R49
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component TH6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component TH5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component TH11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C56
+ SM*
+ C?
+ C1-1
+$endlist
+$component R58
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R63
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C35
+ SM*
+ C?
+ C1-1
+$endlist
+$component C34
+ SM*
+ C?
+ C1-1
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C45
+ SM*
+ C?
+ C1-1
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R43
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R54
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R57
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R56
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R55
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C55
+ SM*
+ C?
+ C1-1
+$endlist
+$component C57
+ SM*
+ C?
+ C1-1
+$endlist
+$component C47
+ SM*
+ C?
+ C1-1
+$endlist
+$component R44
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C37
+ SM*
+ C?
+ C1-1
+$endlist
+$component C38
+ SM*
+ C?
+ C1-1
+$endlist
+$component R35
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component TH1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C68
+ SM*
+ C?
+ C1-1
+$endlist
+$component C59
+ SM*
+ C?
+ C1-1
+$endlist
+$component C58
+ SM*
+ C?
+ C1-1
+$endlist
+$component R113
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R97
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R112
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R111
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D6
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C73
+ SM*
+ C?
+ C1-1
+$endlist
+$component R96
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C27
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component C28
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R81
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C75
+ SM*
+ C?
+ C1-1
+$endlist
+$component C82
+ SM*
+ C?
+ C1-1
+$endlist
+$component C81
+ SM*
+ C?
+ C1-1
+$endlist
+$component C76
+ SM*
+ C?
+ C1-1
+$endlist
+$component C77
+ SM*
+ C?
+ C1-1
+$endlist
+$component R80
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R82
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C80
+ SM*
+ C?
+ C1-1
+$endlist
+$component C79
+ SM*
+ C?
+ C1-1
+$endlist
+$component R84
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R85
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R83
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R86
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C83
+ SM*
+ C?
+ C1-1
+$endlist
+$component C78
+ SM*
+ C?
+ C1-1
+$endlist
+$component C74
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "+3.3V" "+3.3V"
+ U8 17
+ U8 24
+ U8 15
+ U8 36
+ U8 48
+ U8 14
+ U7 4
+ R7 2
+ R8 1
+ C28 1
+ L2 2
+ C23 1
+ C22 1
+ C29 1
+ R96 2
+ U9 8
+ Q1 S
+ R3 1
+Net 2 "" ""
+ Q1 D
+ C6 1
+ U2 3
+Net 3 "" ""
+ R26 2
+ D3 1
+Net 4 "" ""
+ R2 2
+ C4 2
+ P2 1
+Net 5 "/USB interface/POWER_ON" "POWER_ON"
+ U1 15
+ R13 1
+ U8 33
+Net 6 "+5VP" "+5VP"
+ R97 2
+ C2 1
+ U7 1
+ C21 1
+ U6 2
+ U6 1
+ U7 3
+ C25 1
+ U1 2
+ U1 16
+ U1 1
+ D4 2
+ C93 1
+Net 7 "/USB interface/~ISO_PWR" "~ISO_PWR"
+ Q1 G
+ U8 35
+ R96 1
+Net 8 "/USB interface/USB_D+" "USB_D+"
+ P1 2
+ U6 7
+ R9 2
+ R7 1
+Net 9 "/USB interface/USB_D-" "USB_D-"
+ P1 3
+ R10 2
+ U6 6
+Net 12 "/Analog interface/V4-" "V4-"
+ C70 1
+ U11 50
+ R93 2
+Net 13 "/ADC & Control logic/LEAD_TEST1" "LEAD_TEST1"
+ P5 3
+ R100 2
+ IC1 20
+Net 14 "/Analog interface/LEAD_TEST2" "LEAD_TEST2"
+ IC1 4
+ R49 2
+Net 15 "/ADC & Control logic/ECG_F" "ECG_F"
+ U94 6
+ U91 3
+ U93 3
+ U94 7
+ U90 3
+ U93 10
+ U92 3
+ U91 10
+ U90 10
+ U92 10
+ R83 2
+Net 16 "/ADC & Control logic/L+" "L+"
+ R44 2
+ C47 2
+ U11 3
+Net 17 "/Analog interface/L-" "L-"
+ C47 1
+ R88 2
+ U11 4
+Net 18 "/ADC & Control logic/R+" "R+"
+ U11 1
+ R45 2
+ C48 2
+Net 19 "/ADC & Control logic/R-" "R-"
+ R89 2
+ U11 2
+ C48 1
+Net 20 "/Analog interface/V1+" "V1+"
+ R46 2
+ U11 63
+ C49 2
+Net 21 "/Analog interface/V1-" "V1-"
+ C49 1
+ U11 64
+ R90 2
+Net 22 "/ADC & Control logic/V2+" "V2+"
+ U11 61
+ R47 2
+ C50 2
+Net 23 "/ADC & Control logic/V2-" "V2-"
+ U11 62
+ C50 1
+ R91 2
+Net 24 "/Analog interface/V3+" "V3+"
+ C69 2
+ R76 2
+ U11 51
+Net 25 "/ADC & Control logic/V3-" "V3-"
+ U11 52
+ C69 1
+ R92 2
+Net 26 "/Analog interface/V4+" "V4+"
+ U11 49
+ C70 2
+ R77 2
+Net 27 "+5VL" "+5VL"
+ U6 10
+ U6 9
+ C20 1
+ R113 2
+ C73 1
+ P1 4
+Net 28 "/Analog interface/V5+" "V5+"
+ U11 47
+ C71 2
+ R78 2
+Net 29 "/Analog interface/V5-" "V5-"
+ U11 48
+ R94 2
+ C71 1
+Net 30 "/Analog interface/V6+" "V6+"
+ U11 45
+ C72 2
+ R79 2
+Net 31 "/Analog interface/V6-" "V6-"
+ U11 46
+ R95 2
+ C72 1
+Net 32 "" ""
+ R107 2
+ R108 1
+ U4 4
+Net 33 "" ""
+ L1 1
+ D3 2
+ C8 1
+ D1 2
+Net 34 "" ""
+ C11 1
+ U3 1
+ U5 1
+ L1 2
+ U4 3
+ C10 1
+ C13 1
+ U4 1
+ C12 1
+Net 35 "/ADC & Control logic/ECG_DATA" "ECG_DATA"
+ U2 13
+ R80 2
+Net 36 "/ADC & Control logic/CLOCK" "CLOCK"
+ U2 12
+ U11 28
+ R82 1
+Net 37 "GND" "GND"
+ C93 2
+ C23 2
+ R112 1
+ R4 2
+ U2 7
+ C2 2
+ U2 1
+ U2 2
+ C6 2
+ U2 6
+ U2 8
+ U9 4
+ U9 9
+ U7 2
+ C73 2
+ R111 1
+ C1 2
+ U12 2
+ C3 2
+ R5 1
+ U12 4
+ R1 2
+ U8 13
+ C7 2
+ C4 1
+ R2 1
+ C24 2
+ U1 5
+ U8 1
+ U1 17
+ R13 2
+ C22 2
+ U1 4
+ D2 1
+ U6 8
+ U1 3
+ U8 19
+ R12 1
+ R11 2
+ R14 2
+ C20 2
+ C29 2
+ C21 2
+ U8 49
+ C26 2
+ P1 1
+ U8 37
+ U6 3
+ C25 2
+ U6 11
+ D5 1
+ C27 2
+ C28 2
+Net 38 "/USB interface/CLOCK" "CLOCK"
+ U8 32
+ U2 5
+Net 39 "/USB interface/ECG_DATA" "ECG_DATA"
+ U8 43
+ U2 4
+Net 40 "" ""
+ R6 1
+ T1 2
+ C7 1
+Net 41 "+2.5V" "+2.5V"
+ U2 14
+ U11 22
+ C9 1
+ R109 1
+ U11 23
+ U3 3
+ IC1 9
+ U5 5
+ R86 2
+ C75 2
+ C83 1
+ C19 1
+Net 42 "+5VA" "+5VA"
+ C77 2
+ U11 53
+ U11 44
+ U94 4
+ U93 4
+ U92 4
+ C58 1
+ U90 4
+ C57 1
+ U91 4
+ R87 1
+ C55 1
+ C68 1
+ C91 1
+ U11 60
+ C59 1
+ C74 1
+ U10 2
+ R103 1
+ U3 5
+ C17 1
+ U11 5
+Net 43 "" ""
+ T1 4
+ D1 1
+Net 44 "" ""
+ C5 1
+ U1 13
+Net 45 "" ""
+ U1 6
+ R6 2
+ R5 2
+Net 46 "" ""
+ U1 7
+ C3 1
+Net 47 "" ""
+ U1 8
+ R1 1
+Net 48 "" ""
+ C1 1
+ U1 9
+Net 49 "+1.8V" "+1.8V"
+ U11 33
+ R107 1
+ U5 3
+ C18 1
+ U4 5
+ U11 26
+ U11 11
+ U11 34
+ C76 2
+Net 54 "" ""
+ R106 1
+ R87 2
+ U3 4
+Net 55 "" ""
+ U5 4
+ R109 2
+ R110 1
+Net 56 "" ""
+ D4 1
+ D5 2
+ U1 10
+ U1 11
+ C5 2
+ U1 12
+ T1 1
+Net 61 "/Analog interface/SHIELD" "SHIELD"
+ P18 1
+ P23 1
+ P22 1
+ P21 1
+ P20 1
+ P19 1
+ P15 1
+ P17 1
+ FB1 2
+ P16 1
+ P3 1
+Net 62 "/USB interface/PWR_FAULT" "PWR_FAULT"
+ U1 14
+ U8 34
+Net 64 "" ""
+ R84 1
+ U11 27
+Net 65 "" ""
+ IC1 12
+ C79 1
+ U13 1
+Net 66 "" ""
+ U10 5
+ C14 1
+Net 71 "" ""
+ U11 29
+ R29 1
+Net 72 "" ""
+ R29 2
+ IC1 3
+Net 73 "" ""
+ IC1 1
+ R82 2
+ P5 4
+Net 74 "" ""
+ C82 2
+ IC1 5
+Net 75 "" ""
+ U11 20
+ R80 1
+Net 76 "AGND" "AGND"
+ TH2 2
+ TH6 2
+ C46 1
+ C55 2
+ C31 1
+ C88 1
+ C86 1
+ C92 2
+ C90 1
+ C36 2
+ U94 11
+ TH4 2
+ C89 1
+ R104 2
+ C34 2
+ TH9 2
+ TH1 2
+ C58 2
+ TH5 2
+ TH3 2
+ C59 2
+ C32 1
+ C53 1
+ U90 11
+ C30 1
+ U93 11
+ U91 11
+ C57 2
+ C68 2
+ C56 1
+ TH11 2
+ C14 2
+ U10 4
+ U10 7
+ U13 2
+ U13 4
+ R106 2
+ R108 2
+ R110 2
+ U11 59
+ U2 15
+ C13 2
+ U2 16
+ C18 2
+ U2 11
+ U2 10
+ U2 9
+ C10 2
+ T1 3
+ R26 1
+ C19 2
+ C9 2
+ C8 2
+ U4 2
+ C12 2
+ U3 2
+ C17 2
+ C11 2
+ U5 2
+ C79 2
+ C80 2
+ R85 1
+ C82 1
+ C81 1
+ R81 1
+ U11 32
+ U11 43
+ U11 24
+ U11 54
+ C75 1
+ P5 1
+ TH8 2
+ C52 1
+ C33 1
+ C76 1
+ C77 1
+ C54 1
+ TH10 2
+ U11 30
+ U11 10
+ U11 9
+ U11 8
+ U11 7
+ U11 6
+ IC1 21
+ IC1 8
+ U11 31
+ U92 11
+ C74 2
+ C78 2
+ U11 25
+ U11 65
+ C87 1
+ C51 1
+ TH7 2
+ U11 57
+ U11 58
+ U11 21
+ C83 2
+Net 77 "" ""
+ C80 1
+ IC1 11
+ U13 3
+Net 78 "" ""
+ R84 2
+ IC1 14
+Net 79 "" ""
+ P5 5
+ IC1 13
+ R86 1
+Net 80 "/ADC & Control logic/INT_AD" "INT_AD"
+ IC1 16
+ P5 2
+ U11 12
+Net 87 "/ADC & Control logic/VREF" "VREF"
+ C78 1
+ U11 56
+ U10 6
+Net 88 "/ADC & Control logic/ADPWR" "ADPWR"
+ U11 35
+ U11 40
+ IC1 2
+ U11 39
+ R81 2
+ U11 36
+ U11 42
+ U11 37
+ U11 38
+ U11 41
+Net 89 "" ""
+ C81 2
+ R83 1
+ IC1 15
+ R85 2
+Net 90 "" ""
+ U9 7
+ U8 7
+ R11 1
+Net 91 "" ""
+ U7 5
+ L2 1
+ D2 2
+Net 93 "" ""
+ U6 4
+ R113 1
+Net 94 "" ""
+ C26 1
+ U8 31
+ U12 1
+Net 95 "" ""
+ U8 16
+ C24 1
+ U8 18
+Net 96 "" ""
+ R111 2
+ D6 2
+Net 99 "" ""
+ U8 12
+ U9 3
+ R14 1
+Net 101 "" ""
+ U8 21
+ U9 1
+Net 103 "" ""
+ R12 2
+ U8 20
+Net 108 "" ""
+ U9 2
+ U8 3
+Net 116 "" ""
+ R9 1
+ U8 38
+Net 117 "" ""
+ R10 1
+ U8 39
+Net 118 "" ""
+ R8 2
+ U8 47
+Net 119 "" ""
+ U8 40
+ R97 1
+Net 120 "" ""
+ R3 2
+ R4 1
+ U8 25
+Net 121 "" ""
+ D7 1
+ U8 27
+Net 122 "" ""
+ D7 2
+ R112 2
+Net 123 "" ""
+ D6 1
+ U8 23
+Net 124 "" ""
+ U8 30
+ U12 3
+ C27 1
+Net 125 "" ""
+ U8 4
+ U9 5
+Net 126 "" ""
+ U8 5
+ U9 6
+Net 127 "" ""
+ R92 1
+ R69 2
+ U92 1
+ C61 1
+Net 128 "" ""
+ U90 12
+ R21 2
+Net 129 "" ""
+ C56 2
+ R58 2
+ R63 1
+ TH11 1
+Net 130 "" ""
+ R27 1
+ C34 1
+ C35 2
+ R25 2
+Net 131 "" ""
+ U90 5
+ R22 2
+Net 132 "" ""
+ U91 8
+ R91 1
+ C44 1
+ R41 2
+Net 133 "" ""
+ R22 1
+ R16 2
+ C31 2
+ TH2 1
+Net 134 "" ""
+ U94 13
+ R20 2
+ U94 14
+ C85 1
+Net 135 "" ""
+ R101 2
+ C84 2
+Net 136 "" ""
+ R102 2
+ R48 2
+ U94 1
+ U94 2
+Net 137 "" ""
+ R59 1
+ TH7 1
+ C51 2
+ R50 2
+Net 138 "" ""
+ C91 2
+ C92 1
+ R105 1
+ R104 1
+ R103 2
+ U94 10
+Net 139 "" ""
+ R15 2
+ C30 2
+ TH1 1
+ R21 1
+Net 140 "/Analog interface/BUFFERED_R-" "BUFFERED_R-"
+ R37 2
+ U90 8
+ C40 1
+ R89 1
+ R55 2
+Net 141 "" ""
+ R19 2
+ R25 1
+ TH5 1
+Net 142 "" ""
+ R28 1
+ U94 8
+Net 143 "" ""
+ U94 5
+ R63 2
+Net 144 "" ""
+ R95 1
+ C67 1
+ U93 8
+ R75 2
+Net 145 "" ""
+ R71 2
+ U92 8
+ C63 1
+ R93 1
+Net 146 "" ""
+ U93 5
+ R62 2
+Net 147 "" ""
+ C66 1
+ R79 1
+ R74 2
+ U93 7
+Net 148 "" ""
+ R62 1
+ C54 2
+ TH10 1
+ R53 2
+Net 149 "" ""
+ R76 1
+ C60 1
+ R68 2
+ U92 14
+Net 150 "" ""
+ R59 2
+ U92 12
+Net 151 "" ""
+ R70 2
+ C62 1
+ R77 1
+ U92 7
+Net 152 "" ""
+ R51 2
+ TH8 1
+ C52 2
+ R60 1
+Net 153 "" ""
+ R60 2
+ U92 5
+Net 154 "" ""
+ R39 2
+ U91 1
+ R90 1
+ C42 1
+Net 155 "" ""
+ U91 14
+ R38 2
+ C41 1
+ R46 1
+Net 156 "" ""
+ TH4 1
+ R24 1
+ R18 2
+ C33 2
+Net 157 "" ""
+ C43 1
+ R40 2
+ R47 1
+ U91 7
+Net 158 "" ""
+ U91 5
+ R24 2
+Net 159 "" ""
+ U91 12
+ R23 2
+Net 160 "" ""
+ R78 1
+ R72 2
+ C64 1
+ U93 14
+Net 161 "" ""
+ R61 2
+ U93 12
+Net 162 "" ""
+ C32 2
+ TH3 1
+ R17 2
+ R23 1
+Net 163 "" ""
+ TH9 1
+ C53 2
+ R52 2
+ R61 1
+Net 164 "" ""
+ C65 1
+ U93 1
+ R73 2
+ R94 1
+Net 165 "" ""
+ R64 2
+ U92 2
+ R69 1
+ C61 2
+Net 166 "" ""
+ C60 2
+ R64 1
+ U92 13
+ R68 1
+Net 167 "/Analog interface/BUFFERED_R+" "BUFFERED_R+"
+ U90 7
+ R45 1
+ R36 2
+ R54 2
+ C39 1
+Net 168 "/Analog interface/BUFFERED_L+" "BUFFERED_L+"
+ C37 1
+ R34 2
+ U90 14
+ R44 1
+ R56 2
+Net 169 "" ""
+ U93 6
+ C66 2
+ R74 1
+ R67 1
+Net 170 "" ""
+ C67 2
+ U93 9
+ R67 2
+ R75 1
+Net 171 "" ""
+ C62 2
+ R65 1
+ U92 6
+ R70 1
+Net 172 "" ""
+ U92 9
+ R71 1
+ R65 2
+ C63 2
+Net 173 "" ""
+ FB1 1
+ TH6 1
+ R20 1
+ C36 1
+ C85 2
+ C84 1
+Net 174 "" ""
+ R102 1
+ C90 2
+ U94 12
+Net 175 "/Analog interface/BUFFERED_L-" "BUFFERED_L-"
+ R88 1
+ C38 1
+ R35 2
+ R57 2
+ U90 1
+Net 176 "" ""
+ R28 2
+ R43 1
+ C45 1
+ C35 1
+ R27 2
+Net 177 "" ""
+ R42 1
+ R101 1
+ C86 2
+Net 178 "" ""
+ C88 2
+ R42 2
+ R99 1
+Net 179 "" ""
+ C87 2
+ R98 1
+ R105 2
+Net 180 "" ""
+ R100 1
+ R98 2
+ C89 2
+Net 181 "" ""
+ U94 9
+ R43 2
+ R48 1
+ C45 2
+Net 182 "" ""
+ U94 3
+ R54 1
+ R55 1
+ R57 1
+ R56 1
+Net 183 "" ""
+ R49 1
+ R99 2
+ C46 2
+Net 184 "" ""
+ C38 2
+ R35 1
+ U90 2
+ R30 2
+Net 185 "" ""
+ R30 1
+ R34 1
+ U90 13
+ C37 2
+Net 186 "" ""
+ R32 1
+ C41 2
+ R38 1
+ U91 13
+Net 187 "" ""
+ C42 2
+ R39 1
+ R32 2
+ U91 2
+Net 188 "" ""
+ C65 2
+ U93 2
+ R73 1
+ R66 2
+Net 189 "" ""
+ U93 13
+ C64 2
+ R66 1
+ R72 1
+Net 190 "" ""
+ R31 1
+ U90 6
+ R36 1
+ C39 2
+Net 191 "" ""
+ R31 2
+ U90 9
+ C40 2
+ R37 1
+Net 192 "" ""
+ R41 1
+ R33 2
+ U91 9
+ C44 2
+Net 193 "" ""
+ U91 6
+ C43 2
+ R40 1
+ R33 1
+}
+#End

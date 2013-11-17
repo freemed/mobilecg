@@ -1,0 +1,2 @@
+#define HARDWARE_VERSION 0
+#define FIRMWARE_VERSION 0

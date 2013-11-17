@@ -1,0 +1,527 @@
+eeschema (2011-nov-30)-stable  >> Creation date: Fri Mar  1 17:02:45 2013
+
+#Cmp ( order = Reference )
+| C1         100n        ; SM0402      
+| C2         47uF        ; SM1206      
+| C3         10nF?       ; SM0402      
+| C4         4.7n 1kV    ; SM1206      
+| C5         100n        ; SM0402      
+| C6         1u          ; SM0402      
+| C7         4.7uF       ; SM0603      
+| C8         47u         ; SM1206      
+| C9         1u          ; SM0402      
+| C10        47u         ; SM1206      
+| C11        1u 10V      ; SM0402      
+| C12        1u 10V      ; SM0402      
+| C13        1u 10V      ; SM0402      
+| C14        2.2u        ; SM0402      
+| C17        1u          ; SM0402      
+| C18        1u          ; SM0402      
+| C19        1u          ; SM0402      
+| C20        33u, 20V    ; SM1206      
+| C21        10u, 6V     ; SM0603      
+| C22        100n        ; SM0402      
+| C23        100n        ; SM0402      
+| C24        1u          ; SM0402      
+| C25        4.7uF 10V   ; SM0603      
+| C26        20p         ; SM0402      
+| C27        20p         ; SM0402      
+| C28        10u         ; SM0603      
+| C29        440n        ; SM0402      
+| C30        33p 50V     ; SM0402      
+| C31        33p 50V     ; SM0402      
+| C32        33p 50V     ; SM0402      
+| C33        33p 50V     ; SM0402      
+| C34        220p 50V    ; SM0402      
+| C35        1u 50V      ; SM0805      
+| C36        33p 50V     ; SM0402      
+| C37        C           ; SM0402      
+| C38        C           ; SM0402      
+| C39        C           ; SM0402      
+| C40        C           ; SM0402      
+| C41        C           ; SM0402      
+| C42        C           ; SM0402      
+| C43        C           ; SM0402      
+| C44        C           ; SM0402      
+| C45        33p         ; SM0402      
+| C46        5n NP0      ; SM0402      
+| C47        C           ; SM0402      
+| C48        C           ; SM0402      
+| C49        C           ; SM0402      
+| C50        C           ; SM0402      
+| C51        33p 50V     ; SM0402      
+| C52        33p 50V     ; SM0402      
+| C53        33p 50V     ; SM0402      
+| C54        33p 50V     ; SM0402      
+| C55        200n        ; SM0402      
+| C56        33p 50V     ; SM0402      
+| C57        200n        ; SM0402      
+| C58        200n        ; SM0402      
+| C59        200n        ; SM0402      
+| C60        C           ; SM0402      
+| C61        C           ; SM0402      
+| C62        C           ; SM0402      
+| C63        C           ; SM0402      
+| C64        C           ; SM0402      
+| C65        C           ; SM0402      
+| C66        C           ; SM0402      
+| C67        C           ; SM0402      
+| C68        200n        ; SM0402      
+| C69        C           ; SM0402      
+| C70        C           ; SM0402      
+| C71        C           ; SM0402      
+| C72        C           ; SM0402      
+| C73        100n, 20V   ; SM0402      
+| C74        4.7u        ; SM0603      
+| C75        10u         ; SM0603      
+| C76        10u         ; SM0603      
+| C77        10u         ; SM0603      
+| C78        22u         ; SM0805      
+| C79        20p         ; SM0402      
+| C80        20p         ; SM0402      
+| C81        ?           ; SM0402      
+| C82        ?           ; SM0402      
+| C83        200n        ; SM0402      
+| C84        3.3n 50V    ; SM0402      
+| C85        500p        ; SM0402      
+| C86        5n NP0      ; SM0402      
+| C87        33n         ; SM0402      
+| C88        5n NP0      ; SM0402      
+| C89        33n         ; SM0402      
+| C90        1n          ; SM0402      
+| C91        33n         ; SM0402      
+| C92        33n         ; SM0402      
+| C93        100n        ; SM0402      
+| D1         CD0603-B0130L; SM0603      
+| D2         DIODESCH    ; SM0603      
+| D3         BZT52C5V6T-7; SM0603      
+| D4         CD0603-B0130L; SM0603      
+| D5         CD0603-B0130L; SM0603      
+| D6         LED         ; SM0402      
+| D7         LED         ; SM0402      
+| FB1        FILTER      ; SM0603      
+| IC1        ATTINY24-M  ; QFN20       
+| L1         33uH KEMET  ; SM1206      
+| L2         10uH        ; SM0805      
+| P1         CONN_4      ; MYUSB       
+| P2         CONN_1      ; MYPAD       
+| P3         CONN_1      ; MYPAD       
+| P5         CONN_5      ; MYPROG      
+| P15        CONN_1      ; MYPAD       
+| P16        CONN_1      ; MYPAD       
+| P17        CONN_1      ; MYPAD       
+| P18        CONN_1      ; MYPAD       
+| P19        CONN_1      ; MYPAD       
+| P20        CONN_1      ; MYPAD       
+| P21        CONN_1      ; MYPAD       
+| P22        CONN_1      ; MYPAD       
+| P23        CONN_1      ; MYPAD       
+| Q1         P           ; MYBSH201    
+| R1         ?           ; SM0402      
+| R2         1M          ; SM0402      
+| R3         10k         ; SM0402      
+| R4         inf         ; SM0402      
+| R5         ?           ; SM0402      
+| R6         ?           ; SM0402      
+| R7         ?           ; SM0402      
+| R8         ?           ; SM0402      
+| R9         ?           ; SM0402      
+| R10        ?           ; SM0402      
+| R11        10k         ; SM0402      
+| R12        10k         ; SM0402      
+| R13        10k         ; SM0402      
+| R14        10k         ; SM0402      
+| R15        100k        ; MYMELF      
+| R16        100k        ; MYMELF      
+| R17        100k        ; MYMELF      
+| R18        100k        ; MYMELF      
+| R19        33k         ; MYMELF      
+| R20        440         ; SM0402      
+| R21        10k         ; SM0402      
+| R22        10k         ; SM0402      
+| R23        10k         ; SM0402      
+| R24        10k         ; SM0402      
+| R25        1k          ; SM0402      
+| R26        200         ; SM0402      
+| R27        150k        ; SM0402      
+| R28        100         ; SM0402      
+| R29        50          ; SM0402      
+| R30        ?           ; SM0402      
+| R31        ?           ; SM0402      
+| R32        ?           ; SM0402      
+| R33        ?           ; SM0402      
+| R34        ?           ; SM0402      
+| R35        ?           ; SM0402      
+| R36        ?           ; SM0402      
+| R37        ?           ; SM0402      
+| R38        ?           ; SM0402      
+| R39        ?           ; SM0402      
+| R40        ?           ; SM0402      
+| R41        ?           ; SM0402      
+| R42        50k         ; SM0402      
+| R43        100k        ; SM0402      
+| R44        ?           ; SM0402      
+| R45        ?           ; SM0402      
+| R46        ?           ; SM0402      
+| R47        ?           ; SM0402      
+| R48        5k          ; SM0402      
+| R49        50k         ; SM0402      
+| R50        100k        ; MYMELF      
+| R51        100k        ; MYMELF      
+| R52        100k        ; MYMELF      
+| R53        100k        ; MYMELF      
+| R54        100k        ; SM0402      
+| R55        100k        ; SM0402      
+| R56        100k        ; SM0402      
+| R57        100k        ; SM0402      
+| R58        100k        ; MYMELF      
+| R59        10k         ; SM0402      
+| R60        10k         ; SM0402      
+| R61        10k         ; SM0402      
+| R62        10k         ; SM0402      
+| R63        10k         ; SM0402      
+| R64        ?           ; SM0402      
+| R65        ?           ; SM0402      
+| R66        ?           ; SM0402      
+| R67        ?           ; SM0402      
+| R68        ?           ; SM0402      
+| R69        ?           ; SM0402      
+| R70        ?           ; SM0402      
+| R71        ?           ; SM0402      
+| R72        ?           ; SM0402      
+| R73        ?           ; SM0402      
+| R74        ?           ; SM0402      
+| R75        ?           ; SM0402      
+| R76        ?           ; SM0402      
+| R77        ?           ; SM0402      
+| R78        ?           ; SM0402      
+| R79        ?           ; SM0402      
+| R80        50          ; SM0402      
+| R81        100k        ; SM0402      
+| R82        50          ; SM0402      
+| R83        40k         ; SM0402      
+| R84        50          ; SM0402      
+| R85        10k         ; SM0402      
+| R86        10k         ; SM0402      
+| R87        ?           ; SM0402      
+| R88        ?           ; SM0402      
+| R89        ?           ; SM0402      
+| R90        ?           ; SM0402      
+| R91        ?           ; SM0402      
+| R92        ?           ; SM0402      
+| R93        ?           ; SM0402      
+| R94        ?           ; SM0402      
+| R95        ?           ; SM0402      
+| R96        10k         ; SM0402      
+| R97        10k         ; SM0402      
+| R98        100k        ; SM0402      
+| R99        50k         ; SM0402      
+| R100       100k        ; SM0402      
+| R101       0           ; SM0402      
+| R102       1k          ; SM0402      
+| R103       22k         ; SM0402      
+| R104       23k         ; SM0402      
+| R105       100k        ; SM0402      
+| R106       ?           ; SM0402      
+| R107       ?           ; SM0402      
+| R108       ?           ; SM0402      
+| R109       ?           ; SM0402      
+| R110       ?           ; SM0402      
+| R111       600         ; SM0402      
+| R112       600         ; SM0402      
+| R113       22k         ; SM0402      
+| T1         MYTR        ; MYTR        
+| TH1        ESD         ; SM0603      
+| TH2        ESD         ; SM0603      
+| TH3        ESD         ; SM0603      
+| TH4        ESD         ; SM0603      
+| TH5        ESD         ; SM0603      
+| TH6        ESD         ; SM0603      
+| TH7        ESD         ; SM0603      
+| TH8        ESD         ; SM0603      
+| TH9        ESD         ; SM0603      
+| TH10       ESD         ; SM0603      
+| TH11       ESD         ; SM0603      
+| U1         TPS55010    ; QFN16       
+| U2         ISOLATOR    ; SO16W       
+| U3         TPS71701    ; sc70-5      
+| U4         TPS71701    ; sc70-5      
+| U5         TPS71701    ; sc70-5      
+| U6         TPD4S014    ; DSON10      
+| U7         TPS62203    ; SOT23-5     
+| U8         ATUC64D4    ; MYQFN48     
+| U9         SFLASH      ; SO8N        
+| U10        REF5025     ; SSOP8       
+| U11        ADS1278     ; HTQFP_64    
+| U12        MYXTAL      ; XTAL3.5x2.7 
+| U13        MYXTAL      ; XTAL3.5x2.7 
+| U90        OPA4        ; TSSOP14     
+| U91        OPA4        ; TSSOP14     
+| U92        OPA4        ; TSSOP14     
+| U93        OPA4        ; TSSOP14     
+| U94        OPA4        ; TSSOP14     
+#End Cmp
+
+#Cmp ( order = Value )
+| 0            R101      ; SM0402      
+| 100          R28       ; SM0402      
+| 100k         R15       ; MYMELF      
+| 100k         R16       ; MYMELF      
+| 100k         R17       ; MYMELF      
+| 100k         R18       ; MYMELF      
+| 100k         R43       ; SM0402      
+| 100k         R50       ; MYMELF      
+| 100k         R51       ; MYMELF      
+| 100k         R52       ; MYMELF      
+| 100k         R53       ; MYMELF      
+| 100k         R54       ; SM0402      
+| 100k         R55       ; SM0402      
+| 100k         R56       ; SM0402      
+| 100k         R57       ; SM0402      
+| 100k         R58       ; MYMELF      
+| 100k         R81       ; SM0402      
+| 100k         R98       ; SM0402      
+| 100k         R100      ; SM0402      
+| 100k         R105      ; SM0402      
+| 100n         C1        ; SM0402      
+| 100n         C5        ; SM0402      
+| 100n         C22       ; SM0402      
+| 100n         C23       ; SM0402      
+| 100n         C93       ; SM0402      
+| 100n, 20V    C73       ; SM0402      
+| 10k          R3        ; SM0402      
+| 10k          R11       ; SM0402      
+| 10k          R12       ; SM0402      
+| 10k          R13       ; SM0402      
+| 10k          R14       ; SM0402      
+| 10k          R21       ; SM0402      
+| 10k          R22       ; SM0402      
+| 10k          R23       ; SM0402      
+| 10k          R24       ; SM0402      
+| 10k          R59       ; SM0402      
+| 10k          R60       ; SM0402      
+| 10k          R61       ; SM0402      
+| 10k          R62       ; SM0402      
+| 10k          R63       ; SM0402      
+| 10k          R85       ; SM0402      
+| 10k          R86       ; SM0402      
+| 10k          R96       ; SM0402      
+| 10k          R97       ; SM0402      
+| 10nF?        C3        ; SM0402      
+| 10u          C28       ; SM0603      
+| 10u          C75       ; SM0603      
+| 10u          C76       ; SM0603      
+| 10u          C77       ; SM0603      
+| 10u, 6V      C21       ; SM0603      
+| 10uH         L2        ; SM0805      
+| 150k         R27       ; SM0402      
+| 1k           R25       ; SM0402      
+| 1k           R102      ; SM0402      
+| 1M           R2        ; SM0402      
+| 1n           C90       ; SM0402      
+| 1u           C6        ; SM0402      
+| 1u           C9        ; SM0402      
+| 1u           C17       ; SM0402      
+| 1u           C18       ; SM0402      
+| 1u           C19       ; SM0402      
+| 1u           C24       ; SM0402      
+| 1u 10V       C11       ; SM0402      
+| 1u 10V       C12       ; SM0402      
+| 1u 10V       C13       ; SM0402      
+| 1u 50V       C35       ; SM0805      
+| 2.2u         C14       ; SM0402      
+| 200          R26       ; SM0402      
+| 200n         C55       ; SM0402      
+| 200n         C57       ; SM0402      
+| 200n         C58       ; SM0402      
+| 200n         C59       ; SM0402      
+| 200n         C68       ; SM0402      
+| 200n         C83       ; SM0402      
+| 20p          C26       ; SM0402      
+| 20p          C27       ; SM0402      
+| 20p          C79       ; SM0402      
+| 20p          C80       ; SM0402      
+| 220p 50V     C34       ; SM0402      
+| 22k          R103      ; SM0402      
+| 22k          R113      ; SM0402      
+| 22u          C78       ; SM0805      
+| 23k          R104      ; SM0402      
+| 3.3n 50V     C84       ; SM0402      
+| 33k          R19       ; MYMELF      
+| 33n          C87       ; SM0402      
+| 33n          C89       ; SM0402      
+| 33n          C91       ; SM0402      
+| 33n          C92       ; SM0402      
+| 33p          C45       ; SM0402      
+| 33p 50V      C30       ; SM0402      
+| 33p 50V      C31       ; SM0402      
+| 33p 50V      C32       ; SM0402      
+| 33p 50V      C33       ; SM0402      
+| 33p 50V      C36       ; SM0402      
+| 33p 50V      C51       ; SM0402      
+| 33p 50V      C52       ; SM0402      
+| 33p 50V      C53       ; SM0402      
+| 33p 50V      C54       ; SM0402      
+| 33p 50V      C56       ; SM0402      
+| 33u, 20V     C20       ; SM1206      
+| 33uH KEMET   L1        ; SM1206      
+| 4.7n 1kV     C4        ; SM1206      
+| 4.7u         C74       ; SM0603      
+| 4.7uF        C7        ; SM0603      
+| 4.7uF 10V    C25       ; SM0603      
+| 40k          R83       ; SM0402      
+| 440          R20       ; SM0402      
+| 440n         C29       ; SM0402      
+| 47u          C8        ; SM1206      
+| 47u          C10       ; SM1206      
+| 47uF         C2        ; SM1206      
+| 50           R29       ; SM0402      
+| 50           R80       ; SM0402      
+| 50           R82       ; SM0402      
+| 50           R84       ; SM0402      
+| 500p         C85       ; SM0402      
+| 50k          R42       ; SM0402      
+| 50k          R49       ; SM0402      
+| 50k          R99       ; SM0402      
+| 5k           R48       ; SM0402      
+| 5n NP0       C46       ; SM0402      
+| 5n NP0       C86       ; SM0402      
+| 5n NP0       C88       ; SM0402      
+| 600          R111      ; SM0402      
+| 600          R112      ; SM0402      
+| ?            C81       ; SM0402      
+| ?            C82       ; SM0402      
+| ?            R1        ; SM0402      
+| ?            R5        ; SM0402      
+| ?            R6        ; SM0402      
+| ?            R7        ; SM0402      
+| ?            R8        ; SM0402      
+| ?            R9        ; SM0402      
+| ?            R10       ; SM0402      
+| ?            R30       ; SM0402      
+| ?            R31       ; SM0402      
+| ?            R32       ; SM0402      
+| ?            R33       ; SM0402      
+| ?            R34       ; SM0402      
+| ?            R35       ; SM0402      
+| ?            R36       ; SM0402      
+| ?            R37       ; SM0402      
+| ?            R38       ; SM0402      
+| ?            R39       ; SM0402      
+| ?            R40       ; SM0402      
+| ?            R41       ; SM0402      
+| ?            R44       ; SM0402      
+| ?            R45       ; SM0402      
+| ?            R46       ; SM0402      
+| ?            R47       ; SM0402      
+| ?            R64       ; SM0402      
+| ?            R65       ; SM0402      
+| ?            R66       ; SM0402      
+| ?            R67       ; SM0402      
+| ?            R68       ; SM0402      
+| ?            R69       ; SM0402      
+| ?            R70       ; SM0402      
+| ?            R71       ; SM0402      
+| ?            R72       ; SM0402      
+| ?            R73       ; SM0402      
+| ?            R74       ; SM0402      
+| ?            R75       ; SM0402      
+| ?            R76       ; SM0402      
+| ?            R77       ; SM0402      
+| ?            R78       ; SM0402      
+| ?            R79       ; SM0402      
+| ?            R87       ; SM0402      
+| ?            R88       ; SM0402      
+| ?            R89       ; SM0402      
+| ?            R90       ; SM0402      
+| ?            R91       ; SM0402      
+| ?            R92       ; SM0402      
+| ?            R93       ; SM0402      
+| ?            R94       ; SM0402      
+| ?            R95       ; SM0402      
+| ?            R106      ; SM0402      
+| ?            R107      ; SM0402      
+| ?            R108      ; SM0402      
+| ?            R109      ; SM0402      
+| ?            R110      ; SM0402      
+| ADS1278      U11       ; HTQFP_64    
+| ATTINY24-M   IC1       ; QFN20       
+| ATUC64D4     U8        ; MYQFN48     
+| BZT52C5V6T-7 D3        ; SM0603      
+| C            C37       ; SM0402      
+| C            C38       ; SM0402      
+| C            C39       ; SM0402      
+| C            C40       ; SM0402      
+| C            C41       ; SM0402      
+| C            C42       ; SM0402      
+| C            C43       ; SM0402      
+| C            C44       ; SM0402      
+| C            C47       ; SM0402      
+| C            C48       ; SM0402      
+| C            C49       ; SM0402      
+| C            C50       ; SM0402      
+| C            C60       ; SM0402      
+| C            C61       ; SM0402      
+| C            C62       ; SM0402      
+| C            C63       ; SM0402      
+| C            C64       ; SM0402      
+| C            C65       ; SM0402      
+| C            C66       ; SM0402      
+| C            C67       ; SM0402      
+| C            C69       ; SM0402      
+| C            C70       ; SM0402      
+| C            C71       ; SM0402      
+| C            C72       ; SM0402      
+| CD0603-B0130L D1        ; SM0603      
+| CD0603-B0130L D4        ; SM0603      
+| CD0603-B0130L D5        ; SM0603      
+| CONN_1       P2        ; MYPAD       
+| CONN_1       P3        ; MYPAD       
+| CONN_1       P15       ; MYPAD       
+| CONN_1       P16       ; MYPAD       
+| CONN_1       P17       ; MYPAD       
+| CONN_1       P18       ; MYPAD       
+| CONN_1       P19       ; MYPAD       
+| CONN_1       P20       ; MYPAD       
+| CONN_1       P21       ; MYPAD       
+| CONN_1       P22       ; MYPAD       
+| CONN_1       P23       ; MYPAD       
+| CONN_4       P1        ; MYUSB       
+| CONN_5       P5        ; MYPROG      
+| DIODESCH     D2        ; SM0603      
+| ESD          TH1       ; SM0603      
+| ESD          TH2       ; SM0603      
+| ESD          TH3       ; SM0603      
+| ESD          TH4       ; SM0603      
+| ESD          TH5       ; SM0603      
+| ESD          TH6       ; SM0603      
+| ESD          TH7       ; SM0603      
+| ESD          TH8       ; SM0603      
+| ESD          TH9       ; SM0603      
+| ESD          TH10      ; SM0603      
+| ESD          TH11      ; SM0603      
+| FILTER       FB1       ; SM0603      
+| inf          R4        ; SM0402      
+| ISOLATOR     U2        ; SO16W       
+| LED          D6        ; SM0402      
+| LED          D7        ; SM0402      
+| MYTR         T1        ; MYTR        
+| MYXTAL       U12       ; XTAL3.5x2.7 
+| MYXTAL       U13       ; XTAL3.5x2.7 
+| OPA4         U90       ; TSSOP14     
+| OPA4         U91       ; TSSOP14     
+| OPA4         U92       ; TSSOP14     
+| OPA4         U93       ; TSSOP14     
+| OPA4         U94       ; TSSOP14     
+| P            Q1        ; MYBSH201    
+| REF5025      U10       ; SSOP8       
+| SFLASH       U9        ; SO8N        
+| TPD4S014     U6        ; DSON10      
+| TPS55010     U1        ; QFN16       
+| TPS62203     U7        ; SOT23-5     
+| TPS71701     U3        ; sc70-5      
+| TPS71701     U4        ; sc70-5      
+| TPS71701     U5        ; sc70-5      
+#End Cmp
+
+#End List

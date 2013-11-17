@@ -1,0 +1,4 @@
+The baseline filter in this test app is not appropriate (the cutting frequency is too high)!
+Use it for testing purposes only!
+
+The notch filter won't be needed once the common mode signal based correction is activated.

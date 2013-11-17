@@ -1,0 +1,8 @@
+The resistor of the USB shield should be 0603.
+There's no need for pullup on D+.
+There is no need for pullup on RESET_N.
+The pinout of the chrystals are rotated 90 degrees.
+There should be a jumper instead of a pulldown resistor at PA13.
+The footprint of the isolator is mirrored.
+LEAD_TEST1 and INT_AD need to be swapped.
+The USB connection needs a bit more space and two pads for the shield.
