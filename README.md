@@ -13,10 +13,10 @@ about mobilECG or read more [on the failed crowdfunding page](http://igg.me/at/m
 
 You can download the hardware design, firmware, and software source code for free:
 
-* Schematic and printed circuit board (KiCAD)
-* Firmware (for both microcontrollers)
-* Driver library (Linux, OSX and Windows)
-* wxWidgets test application (Linux, OSX and Windows)
+* [Schematic and printed circuit board (KiCAD)](http://mobilecg.hu/mobilecg-hardware.zip)
+* [Firmware (for both microcontrollers)](http://mobilecg.hu/mobilecg-firmware.zip)
+* [Driver library (Linux, OSX and Windows)](http://mobilecg.hu/mobilecg-driver.zip)
+* [wxWidgets test application (Linux, OSX and Windows)](http://mobilecg.hu/mobilecg-wx-test.zip)
 * Android test application - not available yet
 
 The software is licensed under [WTFPL](http://www.wtfpl.net/txt/copying/), the hardware under [CERN OHL 1.2](http://www.ohwr.org/licenses/cern-ohl/v1.2). There is no warranty, and I have no liability for anything related to mobilECG. Only put the electrodes on people if you are 100% confident in what you are doing.
